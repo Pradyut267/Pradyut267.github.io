@@ -20,14 +20,24 @@ body{
   max-width: 100%;
   z-index: 1;
 }
-#resume-button-1 {
+/* #resume-button-1 {
   padding: 2px;
    border-radius: 7px;
   border: 2px solid #111D42; 
-  /* background-color:blue;
-  color:black; */
+  
   background-color: #898c94;
-  color: white;
+ 
+
+  
+} */
+#resume-button-1{
+  /* background-color: white; */
+  /* font-weight: bolder; */
+  font-size: larger;
+ text-decoration: none;
+  border-radius: 6px;
+  padding: 2% 2%;
+  color: #010234;
 }
 .nav-colored {
   background-color: #636E7B;
@@ -184,7 +194,9 @@ font-size: larger;
 #projects{
   margin: 250px 4%;
 }
-
+#tools{
+  margin: 250px 4%;
+}
 #projects>div{
   display: grid;
 grid-template-columns: repeat(2,1fr);
